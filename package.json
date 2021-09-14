@@ -1,0 +1,12 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "scripts": {
+    "swagger": "node swagger.config.js"
+  },
+  "devDependencies": {
+    "free-swagger": "^5.1.6"
+  },
+  "author": "yeyan1996",
+  "license": "MIT"
+}
