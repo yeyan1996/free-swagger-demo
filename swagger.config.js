@@ -2,15 +2,15 @@ const freeSwagger = require("free-swagger")
 const { mock } = freeSwagger
 const path = require("path")
 
-// freeSwagger('https://petstore.swagger.io/v2/swagger.json')
+freeSwagger('https://petstore.swagger.io/v2/swagger.json')
 
-// mock('https://petstore.swagger.io/v2/swagger.json')
+mock('https://petstore.swagger.io/v2/swagger.json')
 
 // update typedef/interface
 // freeSwagger({source:'https://petstore.swagger.io/v2/swagger.json',typeOnly:true})
 
 // typescript
-freeSwagger({source:'https://petstore.swagger.io/v2/swagger.json', lang:'ts'})
+// freeSwagger({source:'https://petstore.swagger.io/v2/swagger.json', lang:'ts'})
 
 // edit root
 // freeSwagger({source: 'https://petstore.swagger.io/v2/swagger.json', root: path.resolve(__dirname, 'other/root')})
