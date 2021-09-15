@@ -10,5 +10,5 @@ npm i
 npm run swagger
 ```
 
-# useage
+# usage
 修改 swagger.config.js 查看不同效果
